@@ -30,6 +30,9 @@ export const Menu = () => {
       <li>
         <Link to="rn-breathe">Breathe (React Native)</Link>
       </li>
+      <li>
+        <Link to="animated-loader">Animated Loader</Link>
+      </li>
     </ul>
   );
 };

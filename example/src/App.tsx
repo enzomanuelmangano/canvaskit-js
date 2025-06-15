@@ -12,6 +12,7 @@ import { Shader1 } from "./Shader1";
 import { Shader2 } from "./Shader2";
 import { Hello } from "./Hello";
 import { RNBreathe } from "./RNBreathe";
+import { AnimatedLoader } from "./AnimatedLoader";
 
 const strictMode = false;
 const Wrapper = strictMode ? StrictMode : Fragment;
@@ -55,6 +56,10 @@ const router = createBrowserRouter([
   {
     path: "/rn-breathe",
     element: <RNBreathe />,
+  },
+  {
+    path: "/animated-loader",
+    element: <AnimatedLoader size={100} />,
   },
 ]);
 
